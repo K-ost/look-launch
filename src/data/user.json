@@ -1,0 +1,34 @@
+{
+  "id": 1000,
+  "name": "Александр Никифоров",
+  "login": "@a.nikifor",
+  "photo": "https://img-host.ru/1p7OK.png",
+  "tariff": {
+    "name": "Тариф Standart",
+    "price": "59 ₽/мес"
+  },
+  "pay": [
+    {
+      "id": 10000,
+      "name": "VK Pay",
+      "balance": "7 320 ₽"
+    },
+    {
+      "id": 10001,
+      "name": "Mastercard •••• 1454"
+    },
+    {
+      "id": 10002,
+      "name": "Mastercard •••• 4432"
+    },
+    {
+      "id": 10003,
+      "name": "VISA •••• 6784"
+    },
+    {
+      "id": 10004,
+      "name": "Мир •••• 8035"
+    }
+  ],
+  "rivals": []
+}

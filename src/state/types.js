@@ -1,0 +1,6 @@
+export const LOADPOSTS = 'APP/LOADPOSTS'
+export const AUTH = 'APP/AUTH'
+export const SUBSCRIBE = 'APP/SUBSCRIBE'
+export const LOAD_USER = 'APP/LOAD_USER'
+export const ADD_RIVAL = 'APP/ADD_RIVAL'
+export const REMOVE_RIVAL = 'APP/REMOVE_RIVAL'

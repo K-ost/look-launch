@@ -1,0 +1,28 @@
+.sort {display: flex; margin: 0 0 20px;}
+.sortbtn {
+  background: 0;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--color-grey);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0 5px 0 0;
+  padding: 8px 15px;
+  outline: none;
+  -webkit-appearance: none;
+  transition: all 200ms ease-in-out;
+  &:last-child {margin: 0;}
+  span {position: relative; display: inline-block;}
+  &.active {
+    background: var(--color-white10); color: var(--color-blue);
+    span {padding-right: 18px;}
+    span::before {
+      background: url(../assets/images/icons/sort.svg) no-repeat;
+      content: ''; display: block; width: 10px; height: 11px; position: absolute;
+      right: 0; top: 50%; margin-top: -5px;
+    }
+    &.desc span::before {transform: matrix(1,0,0,-1,0,0);}
+  }
+}

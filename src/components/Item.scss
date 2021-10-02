@@ -1,0 +1,15 @@
+/* wrap-item */
+.wrap-item {
+  list-style: none; display: flex; align-items: center; justify-content: space-between;
+  min-height: 44px; position: relative; color: var(--color-white); padding: 4px 16px;
+  [class*='btn-'] {margin-left: 10px;}
+}
+.wrap-label {
+  display: block; width: 100%;
+  span {color: var(--color-grey2); margin-left: 10px;}
+  span.block {display: block; color: var(--color-grey2); font-size: 13px; line-height: 16px; margin: 0;}
+  &-radio {
+    cursor: pointer; padding-left: 34px; position: relative;
+    input[type="radio"] {position: absolute; left: 0; top: 50%; margin-top: -11px;}
+  }
+}

@@ -1,0 +1,17 @@
+.modal {
+  position: fixed; width: 100%; height: 100vh; left: 0; top: 0; opacity: 0; visibility: hidden; z-index: 1020;
+  transition: all 200ms ease-in-out;
+  &.opened {opacity: 1; visibility: visible;}
+  #modal_overlay {position: absolute; left: 0; top: 0; width: 100%; height: 100vh; background: rgba(0,0,0,0.55);}
+  &_wrapper {display: flex; width: 100%; height: 100vh; align-items: center; justify-content: center;}
+    &_inner {
+      background: var(--color-grey_dark); position: relative; border-radius: 20px; color: var(--color-white);
+      padding: 30px 20px 23px; text-align: center; width: 100%; max-width: 380px;
+      .modal-close {position: absolute; right: 10px; top: 10px;}
+      .btn {font-size: 13px; font-weight: 400;}
+    }
+  &-text {
+    margin: 0 0 26px;
+    &:last-child {margin: 0;}
+  }
+}

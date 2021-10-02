@@ -1,0 +1,16 @@
+/* usercard */
+.usercard {
+  display: flex; align-items: flex-start; margin: 0 0 35px;
+  &_img {
+    min-width: 86px; max-width: 86px; margin: 0 24px 0 0; position: relative;
+    img {display: block; border-radius: 50%;}
+  }
+  &_details {width: 100%;}
+  h2 {margin: 0 0 5px; max-width: 196px;}
+  &_small {color: var(--color-grey); font-size: 14px; line-height: 18px;}
+
+  &-check &_img::before {
+    background: url(../assets/images/icons/check.svg) no-repeat; content: ''; display: block;
+    width: 24px; height: 24px; position: absolute; top: 0; right: -7px;
+  }
+}

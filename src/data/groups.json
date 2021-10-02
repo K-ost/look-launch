@@ -1,0 +1,131 @@
+
+[
+   {
+      "id":1,
+      "name":"ВКонтакте API",
+      "screen_name":"apiclub",
+      "is_closed":0,
+      "type":"group",
+      "photo_50":"https:\/\/sun6-22.userapi.com\/s\/v1\/if1\/04SDm6iX9Lb6SbdbdrfonC3AYNYcmeITh7qA2hWfqZHsm8Vzg1eAgFgEXj5r9hnX4tJGjxxh.jpg?size=50x50&quality=96&crop=20,20,560,560&ava=1",
+      "photo_100":"https:\/\/sun6-22.userapi.com\/s\/v1\/if1\/-KtBexxCseHjbF2KHkGe39sIKDnFws1s2jZGoSyu6VVi60svhEBzHdFpxtSTMVnSjHhc_x0h.jpg?size=100x100&quality=96&crop=20,20,560,560&ava=1",
+      "photo_200":"https:\/\/sun6-22.userapi.com\/s\/v1\/if1\/VzUDrhCC83ylOGINHBFS2Cy3ctu2s6mXr4KwuS_sEXNN0AJwoyrxRwHtFomuX6h9NALKDx0F.jpg?size=200x200&quality=96&crop=20,20,560,560&ava=1",
+      "like":{
+         "is_liked":false,
+         "friends":{
+            "count":0,
+            "preview":[
+               
+            ]
+         }
+      }
+   },
+   {
+      "id":2,
+      "name":"I ♥ VIPROJECT | VIP CLUB",
+      "screen_name":"club2",
+      "is_closed":0,
+      "type":"group",
+      "deactivated":"banned",
+      "photo_50":"https://images.unsplash.com/photo-1612144431180-2d672779556c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c21hbGx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "photo_100":"https:\/\/vk.com\/images\/deactivated_100.png",
+      "photo_200":"https:\/\/vk.com\/images\/deactivated_200.png"
+   },
+   {
+      "id":3,
+      "name":"Потанинские стипендиаты",
+      "screen_name":"club3",
+      "is_closed":1,
+      "type":"group",
+      "photo_50":"https://media.istockphoto.com/photos/modern-custom-suburban-home-exterior-picture-id1255835530?b=1&k=20&m=1255835530&s=170667a&w=0&h=vWteBzGCikOwcc8iznEOTM_Sdk8URYryKlBmaxMJdcs=",
+      "photo_100":"https:\/\/sun9-72.userapi.com\/c39\/g00003\/b_ced72e9.jpg",
+      "photo_200":"https:\/\/sun9-72.userapi.com\/c39\/g00003\/b_ced72e9.jpg"
+   },
+   {
+      "id":4,
+      "name":"Любители Бората",
+      "screen_name":"club4",
+      "is_closed":0,
+      "type":"group",
+      "photo_50":"https://media.istockphoto.com/photos/red-miniature-fridge-picture-id94072222?b=1&k=20&m=94072222&s=170667a&w=0&h=KAJX5e8gOgfF2MOnDUZDVhh-jBRgpPPcRSlNS3sYSp0=",
+      "photo_100":"https:\/\/sun9-83.userapi.com\/c122\/g00004\/b_800ac35d.jpg",
+      "photo_200":"https:\/\/sun9-83.userapi.com\/c122\/g00004\/b_800ac35d.jpg",
+      "like":{
+         "is_liked":false,
+         "friends":{
+            "count":0,
+            "preview":[
+               
+            ]
+         }
+      }
+   },
+   {
+      "id":5,
+      "name":"Группа не продается",
+      "screen_name":"club5",
+      "is_closed":1,
+      "type":"group",
+      "photo_50":"https://media.istockphoto.com/photos/small-shrinking-currency-dollar-in-inflation-on-white-background-picture-id174672992?b=1&k=20&m=174672992&s=170667a&w=0&h=b-CcObjDfgFS4qFbnJM5GEKwO9vSU3Ckanfo9nVI7o4=",
+      "photo_100":"https:\/\/vk.com\/images\/community_100.png",
+      "photo_200":"https:\/\/vk.com\/images\/community_200.png"
+   },
+   {
+      "id":6,
+      "name":"Время: 23:57 | Погода:  ()",
+      "screen_name":"club6",
+      "is_closed":1,
+      "type":"group",
+      "photo_50":"https://media.istockphoto.com/photos/balance-and-harmony-with-different-balls-picture-id1271176645?b=1&k=20&m=1271176645&s=170667a&w=0&h=ezlqY2CZt_R8VGAr9BmV8I-VacsIdNvta4ZSf4CCzDk=",
+      "photo_100":"https:\/\/vk.com\/images\/community_100.png",
+      "photo_200":"https:\/\/vk.com\/images\/community_200.png"
+   },
+   {
+      "id":7,
+      "name":"40 мм",
+      "screen_name":"club7",
+      "is_closed":0,
+      "type":"group",
+      "photo_50":"https:\/\/sun9-52.userapi.com\/c39\/g00007\/c_f352dc7.jpg",
+      "photo_100":"https:\/\/sun9-52.userapi.com\/c39\/g00007\/b_f352dc7.jpg",
+      "photo_200":"https:\/\/sun9-52.userapi.com\/c39\/g00007\/b_f352dc7.jpg",
+      "like":{
+         "is_liked":false,
+         "friends":{
+            "count":0,
+            "preview":[
+               
+            ]
+         }
+      }
+   },
+   {
+      "id":8,
+      "name":"Группа AIS",
+      "screen_name":"club8",
+      "is_closed":1,
+      "type":"group",
+      "photo_50":"https:\/\/sun9-41.userapi.com\/c39\/g00008\/c_4868d61.jpg",
+      "photo_100":"https:\/\/sun9-41.userapi.com\/c39\/g00008\/b_4868d61.jpg",
+      "photo_200":"https:\/\/sun9-41.userapi.com\/c39\/g00008\/b_4868d61.jpg"
+   },
+   {
+      "id":9,
+      "name":"Private Club9",
+      "screen_name":"club9",
+      "is_closed":1,
+      "type":"group",
+      "photo_50":"https://thumbs.dreamstime.com/b/beautiful-asian-girl-celebrate-laptop-success-pose-education-technology-startup-business-concept-copy-space-84924488.jpg",
+      "photo_100":"https:\/\/sun6-22.userapi.com\/s\/v1\/if1\/BwU8q3MYYlpmX-uZig2J9N9p6EBFXLVyhQ7aWgu1G8KQRrFcMQQUBfL56cR7os-jE3RPNWUS.jpg?size=100x100&quality=96&crop=35,5,323,323&ava=1",
+      "photo_200":"https:\/\/sun6-22.userapi.com\/s\/v1\/if1\/jdAt9YlylAsfNynfk0iupI8A5jFHALck7kIQPMXxLyzOESgTfd3BJ2E9Bi5Rt9-97TohWzaI.jpg?size=200x200&quality=96&crop=35,5,323,323&ava=1"
+   },
+   {
+      "id":10,
+      "name":"Группа Закрыта",
+      "screen_name":"club10",
+      "is_closed":1,
+      "type":"group",
+      "photo_50":"https://images.unsplash.com/photo-1491958501121-458097ef59ee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNtYWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "photo_100":"https:\/\/vk.com\/images\/community_100.png",
+      "photo_200":"https:\/\/vk.com\/images\/community_200.png"
+   }
+]
