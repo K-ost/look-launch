@@ -12,7 +12,7 @@ const Concurents = props => {
   const dispatch = useDispatch()
 
   // User not logged
-  if ( auth === false ) {
+  if ( auth === false || rivals.length === 0 ) {
     props.history.push('/')
   }
 

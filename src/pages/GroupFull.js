@@ -90,6 +90,12 @@ const GroupFull = props => {
   }
 
 
+  // backLinkFunc
+  const backLinkFunc = () => {
+    props.history.goBack()
+  }
+
+
   return (
     <>
       <PageTitle title="Смотри и запускай" border={true} text="Отслеживай рекламу конкурентов в ВК через поиск промопостов в их сообществах." />
@@ -99,7 +105,7 @@ const GroupFull = props => {
         
           <div className="community_top">
             <div className="community_header">
-              <Link to="/" className="btn-back"></Link>
+              <button onClick={backLinkFunc} className="btn-back"></button>
               <img src={community.photo_50} alt="" />
               <h3>{community.name}</h3>
             </div>

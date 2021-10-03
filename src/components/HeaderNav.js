@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { signin } from '../state/actions'
 import photo from '../assets/images/photo.png'
 
 const HeaderNav = props => {
+
+  const isRivals = useSelector(state => state.user.rivals)
 
   // signoutFunc
   const dispatch = useDispatch()
@@ -36,7 +38,7 @@ const HeaderNav = props => {
                 <img src={photo} alt="" /> Александр Никифоров
               </Link>
             </li>
-            <li><Link to="/concurents" className="headernav-people" onClick={closeNav}>Конкуренты</Link></li>
+            {(isRivals.length !== 0) && <li><Link to="/concurents" className="headernav-people" onClick={closeNav}>Конкуренты</Link></li>}
             <li><a href="/" className="headernav-tech">Техническая поддержка</a></li>
             <li><Link to="/" className="headernav-exit" onClick={signoutFunc}>Выйти из аккаунта</Link></li>
           </ul>

@@ -1,12 +1,10 @@
-import { ADD_RIVAL, AUTH, LOADPOSTS, LOAD_USER, REMOVE_RIVAL, SUBSCRIBE } from './types'
+import { ADD_RIVAL, AUTH, LOADPOSTS, LOAD_USER, REMOVE_PAY, REMOVE_RIVAL, REMOVE_TARIFF, SUBSCRIBE } from './types'
 
 const initialState = {
   auth: false,
   loadposts: false,
   subscribed: false,
-  user: {
-    rivals: []
-  }
+  user: []
 }
 
 export const rootReducer = (state = initialState, action) => {
@@ -23,6 +21,10 @@ export const rootReducer = (state = initialState, action) => {
       return { ...state, user: { ...state.user, rivals: state.user.rivals.concat([action.payload]) } }
     case REMOVE_RIVAL:
       return { ...state, user: { ...state.user, rivals: state.user.rivals.filter(item => item !== action.payload) } }
+    case REMOVE_TARIFF:
+      return { ...state, user: { ...state.user, tariff: null } }
+    case REMOVE_PAY:
+      return { ...state, user: { ...state.user, pay: state.user.pay.filter(item => item.name !== action.payload) } }
     default: return state
   }
 }

@@ -4,9 +4,10 @@
   "login": "@a.nikifor",
   "photo": "https://img-host.ru/1p7OK.png",
   "tariff": {
-    "name": "Тариф Standart",
+    "name": "Standart",
     "price": "59 ₽/мес"
   },
+  "vip": false,
   "pay": [
     {
       "id": 10000,

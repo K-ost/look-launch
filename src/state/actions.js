@@ -1,4 +1,4 @@
-import { ADD_RIVAL, AUTH, LOADPOSTS, LOAD_USER, REMOVE_RIVAL, SUBSCRIBE } from './types'
+import { ADD_RIVAL, AUTH, LOADPOSTS, LOAD_USER, REMOVE_PAY, REMOVE_RIVAL, REMOVE_TARIFF, SUBSCRIBE } from './types'
 
 export const signin = status => {
   return {
@@ -40,5 +40,18 @@ export const removeRivalAction = id => {
   return {
     type: REMOVE_RIVAL,
     payload: id
+  }
+}
+
+export const removeTariffAction = () => {
+  return {
+    type: REMOVE_TARIFF
+  }
+}
+
+export const removePayAction = title => {
+  return {
+    type: REMOVE_PAY,
+    payload: title
   }
 }
