@@ -82,5 +82,17 @@
 }
 
 
+/* postlink */
+.postlink {
+  border: 1px solid var(--color-white10); border-radius: 4px; margin: 0 0 16px; transition: all 200ms ease-in-out;
+  &:last-child {margin: 0;}
+  &:hover {border-color: var(--color-white20);}
+  &_img {
+    img {display: block; border-radius: 3px 3px 0 0;}
+  }
+  &_details {display: flex; align-items: center; padding: 10px 16px;}
+  &_entry {width: 100%; padding-right: 16px;}
+  &_url {font-size: 13px; line-height: 16px; color: var(--color-grey2);}
+}
 
 

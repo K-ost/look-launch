@@ -49,8 +49,23 @@ const GroupPosts = props => {
                 </div>
               </div>
 
-              {post.attachments[0].photo && 
-                <div className="commmunity_post-text"><img src={post.attachments[0].photo.sizes[0].url} alt="" /></div>
+              {(post.attachments[0].type === 'link') &&
+                <div className="postlink">
+                  <div className="postlink_img">
+                    <a href={post.attachments[0].link.url} target="_blank" rel="noreferrer">
+                      <img src={post.attachments[0].link.photo.sizes.find(item => item.width === 510).url} alt="" />
+                    </a>
+                  </div>
+                  <div className="postlink_details">
+                    <div className="postlink_entry">
+                      <div className="postlink_title">{post.attachments[0].link.title}</div>
+                      <div className="postlink_url">{post.attachments[0].link.caption}</div>
+                    </div>
+                    <a href={post.attachments[0].link.button.action.url} className="btn btn-sm btn-primary ripple" target="_blank" rel="noreferrer">
+                      {post.attachments[0].link.button.title}
+                    </a>
+                  </div>
+                </div>
               }
               <div className="commmunity_post-likes">{post.likes.count}</div>
 
