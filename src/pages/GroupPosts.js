@@ -17,15 +17,31 @@ const GroupPosts = props => {
     }
   }
 
+  const months = [
+    'Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня',
+    'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'
+  ]
+
   return (
     <>
       <ul className="commmunity_postlist">
         {props.posts.map(post => {
+
+          // Create Date
+          let unixdate = post.date
+          let fulldate = new Date(unixdate * 1000)
+          let date = fulldate.getDate()
+          let month = months[fulldate.getMonth() - 1]
+          let hours = fulldate.getHours()
+          let minutes = '0' + fulldate.getMinutes()
+          let totalDate = `${date} ${month} ${hours}:${minutes.substr(-2)}`
+          
+
           return (
             <li className="commmunity_post" key={post.id}>
               {post.title && <h3>{post.title}</h3>}
               
-              <div className="commmunity_post-date">{post.date}</div>
+              <div className="commmunity_post-date">{totalDate}</div>
 
               <div className="commmunity_post-text">
                 <div className="commmunity_post-textin">
@@ -46,7 +62,7 @@ const GroupPosts = props => {
         }).splice(0,props.page)}
       </ul>
       {(props.page < props.posts.length) &&
-        <button className="btn btn-block" onClick={props.click}><span>Показать ещё</span></button>
+        <button className="btn btn-block ripple" onClick={props.click}><span>Показать ещё</span></button>
       }
     </>
   )

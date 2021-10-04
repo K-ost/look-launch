@@ -59,7 +59,7 @@ const Group = props => {
 
           {(currentPage < group.length) && 
             <div className="wrap_inner">
-              <button className="btn btn-block" onClick={showMore}>
+              <button className="btn btn-block ripple" onClick={showMore}>
                 <span>Показать ещё</span>
               </button>
             </div>

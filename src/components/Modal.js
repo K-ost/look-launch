@@ -23,7 +23,7 @@ const Modal = props => {
         <div className="modal_inner">
           {props.title && <h2>{props.title}</h2>}
           {props.children}
-          {props.cancel && <button className="btn btn-link" onClick={closePopup}>Отменить</button>}
+          {props.cancel && <button className="btn btn-link ripple" onClick={closePopup}>Отменить</button>}
           <button className="modal-close" onClick={closePopup}></button>
         </div>
       </div>

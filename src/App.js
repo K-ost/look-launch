@@ -11,6 +11,14 @@ import { loadUsersAction } from './state/actions'
 import userJSON from './data/user.json'
 import { useDispatch } from 'react-redux'
 
+/* Routes */
+const routes = [
+  { path: '/', Component: Groups },
+  { path: '/groups/:id', Component: GroupFull },
+  { path: '/profile', Component: Profile },
+  { path: '/concurents', Component: Concurents }
+]
+
 function App(props) {
   
   // Load userinfo
@@ -26,10 +34,9 @@ function App(props) {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" route={props} component={Groups} />
-          <Route path="/groups/:id" route={props} component={GroupFull} />
-          <Route path="/profile" route={props} component={Profile} />
-          <Route path="/concurents" route={props} component={Concurents} />
+          {routes.map(({ path, Component }) => {
+            return <Route key={path} exact path={path} route={props} component={Component} />
+          })}
         </Switch>
         <Footer />
       </Router>

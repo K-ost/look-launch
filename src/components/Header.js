@@ -44,7 +44,7 @@ const Header = props => {
 
       {!auth && <Modal id="loginpopup" title="Войдите в аккаунт">
         <div className="modal-text">Для использования сервиса необходимо авторизоваться</div>
-        <button className="btn btn-primary btn-block btn-vk" onClick={signinFunc}><span>Войти через ВКонтакте</span></button>
+        <button className="btn btn-primary btn-block btn-vk ripple" onClick={signinFunc}><span>Войти через ВКонтакте</span></button>
       </Modal>}
     </>
   )

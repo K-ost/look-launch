@@ -138,8 +138,8 @@ const GroupFull = props => {
                 <h2>Оформите подписку</h2>
                 <p>Для просмотра всех результатов поиска вам необходимо оформить подписку: 59 ₽/мес.</p>
                 {auth
-                  ? <button className="btn btn-primary btn-block" onClick={subsFunc}>Подписаться и оплатить</button>
-                  : <button className="btn btn-primary btn-block" onClick={loginPopup}>Подписаться и оплатить</button>
+                  ? <button className="btn btn-primary btn-block ripple" onClick={subsFunc}>Подписаться и оплатить</button>
+                  : <button className="btn btn-primary btn-block ripple" onClick={loginPopup}>Подписаться и оплатить</button>
                 }
                 <Link to="/" className="modal-close"></Link>
               </div>}
