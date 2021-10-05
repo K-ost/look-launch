@@ -53,7 +53,7 @@ const GroupPosts = props => {
                 <div className="postlink">
                   <div className="postlink_img">
                     <a href={post.attachments[0].link.url} target="_blank" rel="noreferrer">
-                      <img src={post.attachments[0].link.photo.sizes.find(item => item.width === 510).url} alt="" />
+                      <img src={post.attachments[0].link.photo.sizes.find(item => item.width === 604).url} alt="" />
                     </a>
                   </div>
                   <div className="postlink_details">

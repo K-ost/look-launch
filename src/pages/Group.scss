@@ -88,7 +88,7 @@
   &:last-child {margin: 0;}
   &:hover {border-color: var(--color-white20);}
   &_img {
-    img {display: block; border-radius: 3px 3px 0 0;}
+    img {display: block; border-radius: 3px 3px 0 0; width: 100%;}
   }
   &_details {display: flex; align-items: center; padding: 10px 16px;}
   &_entry {width: 100%; padding-right: 16px;}

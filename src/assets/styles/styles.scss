@@ -20,6 +20,7 @@
 @mixin inp {outline: none; -webkit-appearance: none; appearance: none; margin: 0;}
 
 /* global */
+html {-webkit-text-size-adjust: none;}
 * {box-sizing: border-box;}
 body {
   background: var(--color-grey_dark);
@@ -47,12 +48,13 @@ hr {background: var(--color-grey_dark); border: 0; clear: both; height: 1px; mar
 
 /* container */
 .container {
-  background: var(--color-black); width: 100%; max-width: 400px; margin: 0 auto; min-height: 100vh; position: relative;
+  background: var(--color-black); width: 100%; max-width: 760px; margin: 0 auto; min-height: 100vh; position: relative;
   &_image {
     background: url(../images/bg1.jpg) center 0 no-repeat; position: absolute; width: 100%;
     left: 0; min-height: 340px; background-size: cover;
   }
 }
+
 
 /* wrap */
 .wrap {
